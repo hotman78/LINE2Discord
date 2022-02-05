@@ -6,13 +6,13 @@
     },
 
     "line": {
-        "token": "",
-        "secret": "",
-        "groupId": ""
+        "token": "${{ secrets.LINE_ACCESS_TOKEN }}",
+        "secret": "${{ secrets.LINE_SECRET }}",
+        "groupId": "${{ secrets.LINE_GROUP_ID }}",
     },
 
     "discord": {
-        "hookUrl": "",
+        "hookUrl": "${{ secrets.DISCORD_WEBHOOK_URL }}",
         "botName": "LINE2Discord",
         "botThumbnail": "",
         "maxFileSize": 8388608
